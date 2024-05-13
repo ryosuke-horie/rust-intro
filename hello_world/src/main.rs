@@ -9,4 +9,9 @@ fn main() {
     print!("に");
     print!("ち");
     print!("は");
+
+    // eprintは標準エラー出力
+    eprint!("エラーです");
+    eprintln!("エラーで");
+    eprintln!("す");
 }
