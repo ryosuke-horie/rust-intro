@@ -22,4 +22,19 @@ fn main() {
     // 計算
     // 他の言語と同じ
     println!("2 + 3 = {}", 2 + 3);
+
+    // 変数
+    // メモリのどこか一か所に名前を付ける
+    // 変数はデフォルトで不変（他と違う）
+    let length;
+    length = 10;
+    println!("length = {}", length);
+
+    // 変数の慣例として、スネークケースで記述すること
+    let max_length = 100;
+    println!("max_length = {}", max_length); 
+
+    // 整数の型はi32
+    // 0以上の整数はu32
+    // 少数も扱うならf64 (64bit)
 }
